@@ -1,7 +1,16 @@
-﻿  jebi.c
-  jjuggumi.c
+﻿  jjuggumi.c
 C:\Users\jogun\source\repos\Project12\Project12\jjuggumi.c(16,9): warning C4129: ' ': 문자 이스케이프 시퀀스를 인식할 수 없습니다.
 C:\Users\jogun\source\repos\Project12\Project12\jjuggumi.c(20,9): warning C4129: '_': 문자 이스케이프 시퀀스를 인식할 수 없습니다.
-C:\Users\jogun\source\repos\Project12\Project12\jjuggumi.c(122,2): warning C4013: 'mugunghwa'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
-  코드를 생성하고 있습니다...
-  Project12.vcxproj -> C:\Users\jogun\source\repos\Project12\x64\Debug\Project12.exe
+C:\Users\jogun\source\repos\Project12\Project12\jjuggumi.c(37,15): warning C4091: 'typedef ': 변수를 선언하지 않으면 'PLAYER' 왼쪽은 무시됩니다.
+C:\Users\jogun\source\repos\Project12\Project12\jjuggumi.c(47,15): warning C4477: 'fscanf_s' : 서식 문자열 '%d'에 'int *' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'int'입니다.
+C:\Users\jogun\source\repos\Project12\Project12\jjuggumi.c(99,2): warning C4013: 'mugunghwa'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\jogun\source\repos\Project12\Project12\jjuggumi.c(103,2): warning C4013: 'jebi'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+jebi.obj : error LNK2005: rmt이(가) cavas.obj에 이미 정의되어 있습니다.
+mugunghwa.obj : error LNK2005: dialog_m이(가) jebi.obj에 이미 정의되어 있습니다.
+mugunghwa.obj : error LNK2005: dir_randonm이(가) jebi.obj에 이미 정의되어 있습니다.
+mugunghwa.obj : error LNK2005: player_per이(가) jebi.obj에 이미 정의되어 있습니다.
+mugunghwa.obj : error LNK2005: count_message이(가) jebi.obj에 이미 정의되어 있습니다.
+mugunghwa.obj : error LNK2005: pass_arr이(가) jebi.obj에 이미 정의되어 있습니다.
+mugunghwa.obj : error LNK2005: per이(가) jebi.obj에 이미 정의되어 있습니다.
+mugunghwa.obj : error LNK2005: message이(가) jebi.obj에 이미 정의되어 있습니다.
+C:\Users\jogun\source\repos\Project12\x64\Debug\Project12.exe : fatal error LNK1169: 여러 번 정의된 기호가 있습니다.

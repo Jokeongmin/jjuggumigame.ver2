@@ -1,4 +1,4 @@
-/*#include "jjuggumi.h"
+#include "jjuggumi.h"
 #include "canvas.h"
 #include "keyin.h"
 #include <stdio.h>
@@ -237,7 +237,7 @@ int player_per(void) {
 	}
 
 }*/
-/*
+
 void reset_buf() {
 	int row = 2;
 	for (int col = 3; col < aa + 3; col++) {
@@ -438,4 +438,3 @@ void jebi() {
 
 }
 
-*/
